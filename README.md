@@ -123,22 +123,26 @@ Building this application demonstrated practical proficiency in:
 
 ---
 
-## 🚘 Vehicle Management
+## Booking
 
-![Vehicles](screenshots/manage-vehicles-screen.png)
-|
-| Dashboard |  |
-| Vehicle Management |  |
-| Rental Booking |  |
-| Transaction Details |  |
-| Database Schema |  |
-⚡ Quick Start & Setup Guide
-1. Clone the Repository `
+![Booking](ScreenShots/Booking.jpg)
 
 ---
-3. Set Up the Database
+## User-Detials
+![User-Detials](ScreenShots/User-Detials.jpg)
+
+
+---
+## Database Schema
+![Database-Diagram](ScreenShots/Database-Diagram.png)
+
+---
+
+
+##  Set Up the Database
  * Open SQL Server Management Studio (SSMS).
  * Execute the provided SQL scripts in the following exact order:
+   path Database/CarRentalDB_CreateTables.sql 
    ```
    * CarRentalDB_CreateTables.sql (Creates database, schemas, tables, and relationships)
    * CarRentalDB_StoredProcedures.sql (Creates all procedural database logic)
@@ -148,14 +152,14 @@ Building this application demonstrated practical proficiency in:
 3. Configure Connection String
 ```
 Open the solution in Visual Studio and update the connection string inside clsDataAccessSetting.cs:
-public static string ConnectionString = "Server=.;Database=CarRentalDB;Trusted_Connection=True;";
+public static string ConnectionString = "Server=.;Database=CarRental;Trusted_Connection=True;";
 ```
 ---
 
 4. Build and Run
  * Open CarRentalSystem.sln in Visual Studio.
  * Press `Ctrl` + `Shift` + `B `to restore packages and build the solution.
- * Press F5 to launch the application.
+   
 🔑 Default Credentials
 Use the pre-configured administrator credentials below to sign in:
 ```
@@ -163,5 +167,4 @@ Use the pre-configured administrator credentials below to sign in:
  * Password: 123
 ```
 ---
-📜 License
-This project is licensed under the MIT License — see the LICENSE file for details.
+
