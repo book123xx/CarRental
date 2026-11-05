@@ -109,12 +109,24 @@ Building this application demonstrated practical proficiency in:
  * Implementing security-first user authentication systems.
  * Designing normalized, relational database schemas with Stored Procedures.
  * Modeling complex real-world business workflows.
-📷 Application Screenshots
-> Add your screenshot images to a ./docs/screenshots folder in your repository and update the paths below.
-> 
-| Screen | Preview |
-|---|---|
-| Login Screen |  |
+
+## Screenshots
+
+## 🔐 Login Screen
+
+![Login Screen](screenshots/login.png)
+
+---
+
+
+![](screenshots/dashboard.png)
+
+---
+
+## 🚘 Vehicle Management
+
+![Vehicles](screenshots/manage-vehicles-screen.png)
+|
 | Dashboard |  |
 | Vehicle Management |  |
 | Rental Booking |  |
@@ -139,7 +151,7 @@ Open the solution in Visual Studio and update the connection string inside clsDa
 public static string ConnectionString = "Server=.;Database=CarRentalDB;Trusted_Connection=True;";
 ```
 ---
-(Replace Server=. with your local SQL Server instance name if necessary).
+
 4. Build and Run
  * Open CarRentalSystem.sln in Visual Studio.
  * Press `Ctrl` + `Shift` + `B `to restore packages and build the solution.
