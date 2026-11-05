@@ -203,10 +203,7 @@ namespace CarRental.User
                     frmListUsers_Load(null, null);
                 }
 
-                else
-                    MessageBox.Show("User is not delted due to data connected to it.", "Faild", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-
+            
             }
         }
     }
