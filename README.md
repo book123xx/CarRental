@@ -119,7 +119,7 @@ Building this application demonstrated practical proficiency in:
 ---
 
 
-![](screenshots/dashboard.png)
+![Customers](ScreenShots/Customers.jpg)
 
 ---
 
