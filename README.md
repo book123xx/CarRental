@@ -91,24 +91,13 @@ CarRentalSystem
  - ADO.NET Data Access Layer
  - Stored Procedure-Driven Data Operations
  - Composition Relationships
-## 🛠️ Tech Stack
-| Technology | Role |
-|---|---|
-| C# (.NET) | Core Backend Logic & BLL |
-| Windows Forms (WinForms) | Desktop User Interface |
-| SQL Server | Relational Database Management System |
-| ADO.NET | High-performance Database Access Provider |
-🗄️ Database Architecture
- * Stored Procedures: All CRUD operations and complex queries are encapsulated within SQL Server stored procedures for performance and security.
- * Foreign Key Constraints: Rigorous relational integrity rules across all tables.
- * Schemas: Logical grouping of database objects.
-🚀 Key Learning Outcomes
 ---
+🚀 Key Learning Outcomes
+
 Building this application demonstrated practical proficiency in:
  * Designing production-ready desktop software.
  * Implementing security-first user authentication systems.
  * Designing normalized, relational database schemas with Stored Procedures.
- * Modeling complex real-world business workflows.
 
 ## Screenshots
 
