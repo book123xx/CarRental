@@ -122,10 +122,7 @@ Building this application demonstrated practical proficiency in:
 | Database Schema |  |
 ⚡ Quick Start & Setup Guide
 1. Clone the Repository `
-```
-git clone https://github.com/mohamedabass1/Car-Rental-Management-System.git
-cd Car-Rental-Management-System
-```
+
 ---
 3. Set Up the Database
  * Open SQL Server Management Studio (SSMS).
