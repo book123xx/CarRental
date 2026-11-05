@@ -13,7 +13,7 @@ namespace CarRental.Booking
 {
     public partial class frmListBooking : Form
     {
-        private DataTable _dtAllBooking;
+        private DataTable _dtAllBooking=null!;
 
         public frmListBooking()
         {

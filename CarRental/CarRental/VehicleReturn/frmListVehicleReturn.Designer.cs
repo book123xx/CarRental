@@ -150,9 +150,9 @@
             label3.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(308, 9);
             label3.Name = "label3";
-            label3.Size = new Size(188, 24);
+            label3.Size = new Size(154, 24);
             label3.TabIndex = 7;
-            label3.Text = "List Vehicle Returns";
+            label3.Text = " Vehicle Returns";
             // 
             // label4
             // 

@@ -59,7 +59,7 @@
             dgvVehcile.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvVehcile.ContextMenuStrip = contextMenuStrip1;
             dgvVehcile.Location = new Point(12, 156);
-            dgvVehcile.Margin = new Padding(4, 4, 4, 4);
+            dgvVehcile.Margin = new Padding(4);
             dgvVehcile.Name = "dgvVehcile";
             dgvVehcile.ReadOnly = true;
             dgvVehcile.RowHeadersVisible = false;
@@ -116,7 +116,7 @@
             // button1
             // 
             button1.Location = new Point(599, 120);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
             button1.Size = new Size(118, 26);
             button1.TabIndex = 2;
@@ -127,7 +127,7 @@
             // txtFilterValue
             // 
             txtFilterValue.Location = new Point(264, 127);
-            txtFilterValue.Margin = new Padding(4, 4, 4, 4);
+            txtFilterValue.Margin = new Padding(4);
             txtFilterValue.Name = "txtFilterValue";
             txtFilterValue.Size = new Size(194, 25);
             txtFilterValue.TabIndex = 5;
@@ -152,9 +152,9 @@
             label3.Location = new Point(214, 43);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(142, 31);
+            label3.Size = new Size(93, 31);
             label3.TabIndex = 7;
-            label3.Text = "List Vehicle";
+            label3.Text = "Vehicle";
             // 
             // label4
             // 
@@ -172,7 +172,7 @@
             cbFilterBy.FormattingEnabled = true;
             cbFilterBy.Items.AddRange(new object[] { "None", "VehicleID", "Make", "Fuel TypeID", "Plate Number", "Car CategoryID" });
             cbFilterBy.Location = new Point(94, 126);
-            cbFilterBy.Margin = new Padding(4, 4, 4, 4);
+            cbFilterBy.Margin = new Padding(4);
             cbFilterBy.Name = "cbFilterBy";
             cbFilterBy.Size = new Size(150, 25);
             cbFilterBy.TabIndex = 9;
@@ -193,7 +193,7 @@
             Controls.Add(lblRecordsCount);
             Controls.Add(dgvVehcile);
             Font = new Font("Times New Roman", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "frmListVehicle";
             Text = "frmListVehicle";
             Load += frmListVehicle_Load;

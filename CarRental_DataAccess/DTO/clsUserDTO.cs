@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CarRental_DataAccess.File
+namespace CarRental_DataAccess.DTO
 {
     public class clsUserDTO
     {

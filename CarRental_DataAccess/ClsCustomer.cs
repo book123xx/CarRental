@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using CarRental_DataAccess.File;
+using CarRental_DataAccess.DTO;
 using Microsoft.Data.SqlClient;
 
 using System.Collections.Generic;
@@ -15,14 +15,6 @@ namespace CarRental_DataAccess
 {
     public class ClsCustomer
     {
-        //static string _connectionString = @"Server=.;Database=CarRental;User Id=va;Password=123456;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
-
-        //static string _connectionString = @"Server=localhost\SQLEXPRESS;Database=CarRental;User Id=fa;Password=123456;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
-        //public static string _connectionString = "Server=.;Database=CarRental;User Id=sa;Password=123456;";
-        //static string _connectionString = "Server=.;Database=CarRental;User Id=ba;Password=123456;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
-
-        //static string _connectionString = "Server=.;Database=CarRental;User Id=va;Password=123456;TrustServerCertificate=True;Connection Timeout=30;";
-
         public static List<clsCustomerDTO> GetCustomers()
         {
             var CustomersList = new List<clsCustomerDTO>();

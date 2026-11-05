@@ -131,9 +131,9 @@
             label3.Location = new Point(391, 9);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(115, 18);
+            label3.Size = new Size(89, 18);
             label3.TabIndex = 6;
-            label3.Text = "List Customer";
+            label3.Text = "Customers";
             // 
             // x
             // 

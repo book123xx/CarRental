@@ -145,9 +145,9 @@
             label3.Font = new Font("Franklin Gothic Medium", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(318, 23);
             label3.Name = "label3";
-            label3.Size = new Size(111, 24);
+            label3.Size = new Size(78, 24);
             label3.TabIndex = 6;
-            label3.Text = "List People";
+            label3.Text = " People";
             // 
             // label2
             // 

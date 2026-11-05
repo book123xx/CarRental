@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             dgvUsers = new DataGridView();
             contextMenuStrip1 = new ContextMenuStrip(components);
             userDetailsToolStripMenuItem = new ToolStripMenuItem();
@@ -53,10 +53,10 @@
             // 
             dgvUsers.AllowUserToAddRows = false;
             dgvUsers.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(0, 192, 192);
-            dataGridViewCellStyle1.ForeColor = Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(0, 0, 192);
-            dgvUsers.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = Color.FromArgb(0, 192, 192);
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(0, 0, 192);
+            dgvUsers.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             dgvUsers.BackgroundColor = SystemColors.ControlLightLight;
             dgvUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvUsers.ContextMenuStrip = contextMenuStrip1;
@@ -64,14 +64,14 @@
             dgvUsers.Margin = new Padding(4, 3, 4, 3);
             dgvUsers.Name = "dgvUsers";
             dgvUsers.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.Navy;
-            dataGridViewCellStyle2.Font = new Font("Cambria", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = SystemColors.Info;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dgvUsers.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.Navy;
+            dataGridViewCellStyle4.Font = new Font("Cambria", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle4.ForeColor = SystemColors.Info;
+            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dgvUsers.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dgvUsers.RowHeadersVisible = false;
             dgvUsers.Size = new Size(744, 277);
             dgvUsers.TabIndex = 0;
@@ -165,9 +165,9 @@
             label2.Location = new Point(397, 9);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(109, 25);
+            label2.Size = new Size(72, 25);
             label2.TabIndex = 6;
-            label2.Text = "List Users";
+            label2.Text = " Users";
             // 
             // lblRecordsCount
             // 
@@ -220,7 +220,7 @@
             Font = new Font("Cambria", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Margin = new Padding(4, 3, 4, 3);
             Name = "frmListUsers";
-            Text = "frmListUsers";
+            Text = "Users";
             Load += frmListUsers_Load;
             ((System.ComponentModel.ISupportInitialize)dgvUsers).EndInit();
             contextMenuStrip1.ResumeLayout(false);
