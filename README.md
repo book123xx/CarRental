@@ -114,7 +114,7 @@ Building this application demonstrated practical proficiency in:
 
 ## 🔐 Login Screen
 
-![Login Screen](screenshots/login.png)
+![Login Screen](ScreenShots/Login.jpg)
 
 ---
 
